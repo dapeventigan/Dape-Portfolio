@@ -1,0 +1,57 @@
+nav {
+  background: rgba(8, 35, 64, 0.5);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  position: fixed;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: flex;
+  gap: 3rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(50px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.8rem;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.pochacco {
+  position: absolute;
+  left: 0.26cm;
+  bottom: 0.24cm;
+  height: 26px;
+  width: 26px;
+}
+
+.pochacco__link {
+  position: relative;
+  left: 0.3cm;
+  top: 0cm;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+#active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+
+/* RESPONSIVE MEDIA QUERIES (PHONE SIZE) */
+
+@media screen and (max-width: 600px) {
+  nav {
+    gap: 1.5rem;
+  }
+}
