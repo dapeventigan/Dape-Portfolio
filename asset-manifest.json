@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dape-portfolio/static/css/main.7324b02c.css",
+    "main.js": "/dape-portfolio/static/js/main.250e5145.js",
+    "static/media/grad.JPG": "/dape-portfolio/static/media/grad.a4ab696717c7f9f7a8e6.JPG",
+    "static/media/m4.JPG": "/dape-portfolio/static/media/m4.2b5a566dae78f105cd5b.JPG",
+    "static/media/me.jpg": "/dape-portfolio/static/media/me.003f80e171717aba5de5.jpg",
+    "static/media/dape_cv.pdf": "/dape-portfolio/static/media/dape_cv.2e42b0cd554916111005.pdf",
+    "static/media/me2.jpeg": "/dape-portfolio/static/media/me2.057f388b17a2b99fd768.jpeg",
+    "static/media/me3.jpeg": "/dape-portfolio/static/media/me3.bd5fcd57a687d52202b2.jpeg",
+    "static/media/valo.JPG": "/dape-portfolio/static/media/valo.de5bfe4cf1b269bc208f.JPG",
+    "static/media/pochacco.png": "/dape-portfolio/static/media/pochacco.6fc16d3df6f38f565278.png",
+    "index.html": "/dape-portfolio/index.html",
+    "main.7324b02c.css.map": "/dape-portfolio/static/css/main.7324b02c.css.map",
+    "main.250e5145.js.map": "/dape-portfolio/static/js/main.250e5145.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7324b02c.css",
+    "static/js/main.250e5145.js"
+  ]
+}
