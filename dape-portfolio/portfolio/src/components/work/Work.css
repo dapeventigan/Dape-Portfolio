@@ -1,0 +1,41 @@
+.work__text > h5 {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+.work__content{
+  gap: 3px;
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: var(--transition);
+  margin-bottom: 3px;
+}
+
+.work__content:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.work__title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.work__description{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+
+.work__description.show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}

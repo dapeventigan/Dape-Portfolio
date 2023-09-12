@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 import NavBar from "./components/navbar/NavBar";
 import About from "./components/about/About";
 import Experience from "./components/experience/Experience";
-import Services from "./components/services/Services";
+import Work from "./components/work/Work";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonals/Testimonals";
 import Contact from "./components/contacts/Contacts";
@@ -17,7 +17,7 @@ function App() {
       <NavBar/>
       <About/>
       <Experience/>
-      <Services/>
+      <Work/>
       <Portfolio/>
       <Testimonials/>
       <Contact/>
