@@ -20,12 +20,13 @@ function NavBar() {
 
   return (
     <nav>
-      <a href="#" className="pochacco__link" onClick={()=> setActiveNav("#")} id={activeNav === '#' ? 'active' : ''}>
+      <a href="#header" className="pochacco__link" onClick={()=> setActiveNav("#")} id={activeNav === '#' ? 'active' : ''}>
         <img
           className="pochacco"
           src={activeNav === '#' || isHovered ? image2 : image1}
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
+          alt=""
         />
       </a>
 
@@ -35,7 +36,7 @@ function NavBar() {
       <a href="#experience" onClick={()=> setActiveNav("#exp")} id={activeNav === '#exp' ? 'active' : ''}>
         <BiBook />
       </a>
-      <a href="#services" onClick={()=> setActiveNav("#services")} id={activeNav === '#services' ? 'active' : ''}>
+      <a href="#experiences" onClick={()=> setActiveNav("#services")} id={activeNav === '#services' ? 'active' : ''}>
         <RiServiceLine />
       </a>
       <a href="#contact" onClick={()=> setActiveNav("#contact")} id={activeNav === '#contact' ? 'active' : ''}>

@@ -14,12 +14,12 @@
 /* REUSABLE STYLES */
 :root {
   /* COLOR */
-  --color-bg: #050519;
-  --color-bg-variant: #2c2c6c;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-bg: #0a0c13;
+  --color-bg-variant: #263e4a;
+  --color-primary: #A1C7BD;
+  --color-primary-variant: #8399A6;
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: #EBEBEB;
 
   /* CONTAINER RESP SIZE*/
   --container-width-lg: 75%;
@@ -66,7 +66,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 15rem;
 }
 
 section > h2,
@@ -138,9 +138,5 @@ img {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
-  }
-
-  section > h2 {
-    margin-top: 2rem;
   }
 }

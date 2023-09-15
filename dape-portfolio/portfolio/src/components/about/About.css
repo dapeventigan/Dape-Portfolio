@@ -1,4 +1,4 @@
-.about__container {
+.about__container { 
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
@@ -13,7 +13,7 @@
   gap: 1.5rem;
 }
 
-.anchor__card{
+.anchor__card {
   color: white;
 }
 
@@ -34,7 +34,7 @@
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  cursor: default;
+  cursor: pointer;
 }
 
 .about__card h5 {
@@ -49,21 +49,29 @@
   margin: 2rem 0 2.6rem;
 }
 
+.desc__container {
+  margin-top: 2rem;
+}
+
+.desc__container > p {
+  margin-top: 0.5rem;
+}
+
 @media screen and (max-width: 1606px) {
-    .about__me {
-        display: flex;
-        margin-left: 0rem;
-        justify-content: center;
-        align-items: center;
-      }
+  .about__me {
+    display: flex;
+    margin-left: 0rem;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 1445px) {
   .about__container {
     padding-bottom: 8rem;
     grid-template-columns: 1fr;
+    gap: 8%;
   }
-
 }
 
 /* RESPONSIVE MEDIA QUERIES (TABLET SIZE) */
@@ -80,18 +88,74 @@
 /* RESPONSIVE MEDIA QUERIES (PHONE SIZE) */
 
 @media screen and (max-width: 600px) {
-
-  .about__container{
-    padding-bottom: 10rem;
+  
+  .about__container {
+    padding-bottom: 4rem;
+    gap: 3%;
   }
 
-    .about__cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
-    }
+  .about__cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    .about__content{
-        text-align: center;
-        margin: 0 2rem 0;
-    }
+  .about__content {
+    padding-top: -10rem;
+    text-align: center;
+    margin: 0 2rem 0;
+  }
+
+  .desc__container > p{
+    font-size: small;
+  }
+}
+
+/* RESPONSIVE MEDIA QUERIES (PHONE SIZE) */
+
+@media screen and (max-width: 500px) {
+  .about__me-image{
+    scale: 0.8;
+  }
+
+  .about__cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about__card {
+    gap: 1px;
+    padding: 1rem;
+  }
+}
+
+
+
+
+/* ANIMATION */
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #C8D9C1 0%,
+    #A1C7BD 29%,
+    #365F73 67%,
+    #EBEBEB 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }

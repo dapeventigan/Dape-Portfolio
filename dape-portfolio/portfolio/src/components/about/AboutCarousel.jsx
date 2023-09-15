@@ -15,12 +15,12 @@ const AboutCarousel = () => {
     return (
         <div className="embla" ref={emblaRef}>
           <div className="embla__container">
-            <div className="embla__slide"><img src={Image1}/></div>
-            <div className="embla__slide"><img src={Image2}/></div>
-            <div className="embla__slide"><img src={Image3}/></div>
-            <div className="embla__slide"><img src={Image4}/></div>
-            <div className="embla__slide"><img src={Image5}/></div>
-            <div className="embla__slide"><img src={Image6}/></div>
+            <div className="embla__slide"><img src={Image1} alt=''/></div>
+            <div className="embla__slide"><img src={Image2} alt=''/></div>
+            <div className="embla__slide"><img src={Image3} alt=''/></div>
+            <div className="embla__slide"><img src={Image4} alt=''/></div>
+            <div className="embla__slide"><img src={Image5} alt=''/></div>
+            <div className="embla__slide"><img src={Image6} alt=''/></div>
           </div>
         </div>
       )
