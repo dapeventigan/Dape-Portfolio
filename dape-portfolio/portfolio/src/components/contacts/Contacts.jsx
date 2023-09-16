@@ -16,7 +16,7 @@ const Contacts = () => {
     emailjs.sendForm('service_bkwr23n', 'template_rmu3aug', form.current, 'NCD-HMjr_lx67kLlb')
       .then((result) => {
           console.log(result.text);
-          setIsModalOpen(false);
+          setIsModalOpen(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -25,11 +25,6 @@ const Contacts = () => {
   };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsModalOpen(true);
-  };
-
   const closeModal = () => {
     setIsModalOpen(false);
   };
@@ -45,6 +40,7 @@ const Contacts = () => {
 
       <div className="container contact__container">
         <div className="contact__cards">
+          <a className="card__links" href="mailto:dabeventigan@gmail.com" target="_blank" rel="noreferrer">
           <motion.article
             whileHover={{ scale: 1.1 }}
             className="contact__option"
@@ -52,8 +48,10 @@ const Contacts = () => {
             <AiOutlineMail />
             <h4>Email</h4>
             <h5>dabeventigan@gmail.com</h5>
-            <a href="mailto:dabeventigan@gmail.com">Send a message</a>
+            <p>Send Message</p>
           </motion.article>
+          </a>
+          <a className="card__links" href="https://m.me/trashdape" target="_blank" rel="noreferrer">
           <motion.article
             whileHover={{ scale: 1.1 }}
             className="contact__option"
@@ -61,10 +59,11 @@ const Contacts = () => {
             <BsMessenger />
             <h4>Messenger</h4>
             <h5>Dabe Ventigan</h5>
-            <a href="https://m.me/trashdape" target="_blank" rel="noreferrer">
-              Send a message
-            </a>
+            <p>Send Message</p>
           </motion.article>
+          </a>
+
+          <a className="card__links" href="https://www.upwork.com/freelancers/~01f3724bc8e10cfa1b?viewMode=1" target="_blank" rel="noreferrer">
           <motion.article
             whileHover={{ scale: 1.1 }}
             className="contact__option"
@@ -72,18 +71,13 @@ const Contacts = () => {
             <BiLogoUpwork />
             <h4>Upwork</h4>
             <h5>Dabe V.</h5>
-            <a
-              href="https://www.upwork.com/freelancers/~01f3724bc8e10cfa1b?viewMode=1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Visit Profile
-            </a>
+            <p>Visit Profile</p>
           </motion.article>
+          </a>
         </div>
 
         <div className="message__container">
-          <form className="contact__message" ref={form} onSubmit={handleSubmit}>
+          <form className="contact__message" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               name="name"
@@ -114,9 +108,9 @@ const Contacts = () => {
             <span className="modal__close" onClick={closeModal}>
               &times;
             </span>
-            <h4>Messenger</h4>
-            <p>hehehehe</p>
-            <button className="btn btn-primary" onClick={sendEmail}>OK</button>
+            <h4>Your message have been sent!</h4>
+            <p>I will reply to you using the email you've provided. Thank you!😸</p>
+            <button className="btn btn-primary" onClick={closeModal}>OK</button>
           </div>
         </Modal>
     

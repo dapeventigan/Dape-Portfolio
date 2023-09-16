@@ -1,20 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Skills.css";
 import ProgressBar from "@ramonak/react-progress-bar";
 import { useInView } from "react-intersection-observer";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Skills() {
+  
   const { ref, inView } = useInView({
     triggerOnce: true,
   });
+
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
+
 
   return (
     <section id="experience">
       <h5>Skills that I have</h5>
       <h2>Skills</h2>
 
-      <div className="container experience__container">
-        <div className="experience__webdev">
+      <div className="container experience__container" ref={ref}>
+        <div className="experience__webdev" 
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-once="true">
           <h3>Web and Mobile Development</h3>
           <div className="experience__content">
             {skillsData.map((item, i) => (
@@ -24,7 +36,7 @@ function Skills() {
                 className="experience__details"
               >
                 <h4>{item.title}</h4>
-                <div ref={ref}>{inView ? 
+                <div>{inView ? 
                 <ProgressBar
                   completed={item.percent}
                   bgColor="#050519"
@@ -37,9 +49,12 @@ function Skills() {
           </div>
         </div>
 
-        <div className="experience__media">
+        <div className="experience__media"
+              data-aos="fade-left"
+              data-aos-duration="500"
+              data-aos-once="true">
           <h3>Image, Video, and Music Production</h3>
-          <div className="experience__content">
+          <div className="experience__content" ref={ref}>
             {skillsMedData.map((item2, i2) => (
               <article
                 item2={item2}
@@ -47,7 +62,7 @@ function Skills() {
                 className="experience__details"
               >
                 <h4>{item2.title}</h4>
-                <div ref={ref}>{inView ? 
+                <div>{inView ? 
                 <ProgressBar
                   completed={item2.percent}
                   bgColor="#050519"

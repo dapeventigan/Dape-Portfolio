@@ -68,17 +68,15 @@ function About() {
             </div>
 
             <div className="desc__container">
-            <h3 className="animate-charcter"> Hello World!</h3>
-            <p>
-              My name is Dabe Ventigan, and you can call me Dabe(The-bhe) or
-              Dape. I'm a fresh IT Graduate from Saint Louis University. I want
-              to pursue my career as a Fullstack Developer, UI/UX Designer,
-              Graphic Designer, Video and Image Editor, Music Producer, Tailor
-              for Street Fashion, or E-Sport Player because I am very passionate
-              in every hobby and skill that I have. Currently, I am focusing on
-              being a Fullstack MERN Developer and UI/UX Designing. I love cats
-              🐈, gaming 🎮, music 🎸, and fashion👚.
-            </p>
+              <h3 className="animate-charcter"> Hello World!</h3>
+              <p>
+                My name is Dabe Ventigan, and you can call me Dape. I'm a fresh
+                IT Graduate from Saint Louis University. I aspire to pursue a
+                career as a Fullstack Developer, UI/UX Designer, Graphic
+                Designer, Video and Image Editor, Music Producer, Street Fashion
+                Tailor, or E-Sport Player. Currently, my focus is on becoming a
+                Fullstack Developer and UI/UX Designer."
+              </p>
             </div>
 
             <a href="#contact" className="btn btn-primary">

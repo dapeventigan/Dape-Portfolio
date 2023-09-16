@@ -55,3 +55,11 @@ nav a:hover {
     gap: 1.5rem;
   }
 }
+
+/* RESPONSIVE MEDIA QUERIES (PHONE SIZE) */
+
+@media screen and (max-width: 375px) {
+  nav {
+    gap: 1rem;
+  }
+}

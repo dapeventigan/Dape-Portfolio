@@ -3,12 +3,12 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import './AboutCarousel.css'
 
-import Image1 from '../../assets/carousel/me2.jpeg'
-import Image2 from '../../assets/carousel/grad.JPG'
+import Image1 from '../../assets/carousel/me2.jpg'
+import Image2 from '../../assets/carousel/grad.jpg'
 import Image3 from '../../assets/carousel/me.jpg'
-import Image4 from '../../assets/carousel/me3.jpeg'
+import Image4 from '../../assets/carousel/m3.jpg'
 import Image5 from '../../assets/carousel/valo.JPG'
-import Image6 from '../../assets/carousel/m4.JPG'
+import Image6 from '../../assets/carousel/m4.jpg'
 
 const AboutCarousel = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])

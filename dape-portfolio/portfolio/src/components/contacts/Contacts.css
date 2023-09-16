@@ -24,7 +24,9 @@
   border-color: var(--color-primary-variant);
 }
 
-.contact__option a {
+.contact__option p {
+  color: var(--color-primary);
+  transition: var(--transition);
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
@@ -53,6 +55,10 @@ textarea {
   color: var(--color-white);
 }
 
+.card__links{
+  color: white;
+}
+
 /* modal */
 
 .modal__container {
@@ -74,10 +80,19 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   border-radius: 1.2rem;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
+}
+
+.modal__content > h4,p {
+  margin-top: 5px;
+  padding-bottom: 8px;
+}
+
+.modal__content > button {
+  margin-top: 20px;
 }
 
 .modal__close {
@@ -99,6 +114,14 @@ textarea {
     margin: 0 auto;
     margin-bottom: 20px;
   }
+
+  .modal__content > h4{
+font-size: small;
+  }
+
+  .modal__content > p {
+font-size: smaller;
+  }
 }
 
 /* RESPONSIVE MEDIA QUERIES (PHONE SIZE) */
@@ -112,5 +135,11 @@ textarea {
   .contact__cards  {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .modal__content {
+
+    max-width: 300px;
+
   }
 }
