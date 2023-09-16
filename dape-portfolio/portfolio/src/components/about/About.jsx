@@ -75,7 +75,7 @@ function About() {
                 career as a Fullstack Developer, UI/UX Designer, Graphic
                 Designer, Video and Image Editor, Music Producer, Street Fashion
                 Tailor, or E-Sport Player. Currently, my focus is on becoming a
-                Fullstack Developer and UI/UX Designer."
+                Fullstack Developer and UI/UX Designer.
               </p>
             </div>
 
