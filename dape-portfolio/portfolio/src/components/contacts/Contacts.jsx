@@ -108,7 +108,7 @@ const Contacts = () => {
             <span className="modal__close" onClick={closeModal}>
               &times;
             </span>
-            <h4>Your message have been sent!</h4>
+            <h4>Your message has been sent!</h4>
             <p>I will reply to you using the email you've provided. Thank you!😸</p>
             <button className="btn btn-primary" onClick={closeModal}>OK</button>
           </div>
