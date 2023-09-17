@@ -1,5 +1,5 @@
 import React from 'react';
-import CVdape from '../../assets/dape_cv.pdf';
+import CVdape from '../../assets/dape_resume.pdf';
 import './HeaderBtn.css';
 
 const headerbtn = () => {
