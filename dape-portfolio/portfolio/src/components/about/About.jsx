@@ -72,10 +72,15 @@ function About() {
               <p>
                 My name is Dabe Ventigan, and you can call me Dape. I'm a fresh
                 IT Graduate from Saint Louis University. I aspire to pursue a
-                career as a Fullstack Developer, UI/UX Designer, Graphic
-                Designer, Video and Image Editor, Music Producer, Street Fashion
-                Tailor, or E-Sport Player. Currently, my focus is on becoming a
-                Fullstack Developer and UI/UX Designer.
+                career as a Fullstack Developer and UI/UX Designer. To
+                complement my technical skills, I've actively sought
+                opportunities to expand my knowledge and experience. I've
+                attended tech meetups and conferences, connecting with industry
+                professionals and absorbing insights into the latest
+                technological advancements. Moreover, I've taken on freelance
+                projects where I've applied my coding and design skills in
+                real-world scenarios, refining my abilities to meet a client's
+                expectations.
               </p>
             </div>
 

@@ -8,6 +8,10 @@ import "aos/dist/aos.css";
 const Experiences = () => {
   const workData = [
     {
+      title: "BeeHub Virtual Assistant Co. | BeeHub",
+      desc: "I've developed BeeHub's Website using MERN stack. My new experiences here is I'm exposed to handling CORS, cookies (first-party and third-party), using APIs, Nodemailer, Multer, Google Oauth2, handling forms, database management, IO.socket, HTML Emails, Parallax Frontend Effect, managing user roles (admin and client roles), domains and subdomains, deploying a full stack MERN application on Render and setting up CNAME and Alias for a custom domain.",
+    },
+    {
       title: "Flutter Developer | Feil, Feil, & Feil Manila",
       desc: "I was a Flutter Developer Intern at FFUF Manila. Before being exposed to big projects, I first took the bootcamp by FFUFM on developing Mobile applications using Dart and Flutter. After completing the bootcamp, I was assigned to an on-going project named 'Markilux' and contributed to making UIs responsive.",
     },
@@ -27,10 +31,6 @@ const Experiences = () => {
       title: "Video Editor | Upwork & OnlineJobPH",
       desc: "My clients send me raw video clips and edit them into TikTok/IG reels or YouTube videos for business purposes, gaming content, or advertisements. I use Adobe Premier, Adobe After Effects, Capcut PC, and Timebolt to edit videos.",
     },
-    {
-      title: "Social Media Manager | Baguio City E-Palarong Pambansa",
-      desc: "I was assigned to chat with customers through Messenger using the business page if they ever have problems encountered or questions.",
-    },
   ];
 
   const [isSelected, setIsSelected] = useState();
@@ -49,21 +49,11 @@ const Experiences = () => {
       <h2>Experiences</h2>
 
       <div className="container work__container">
-        <div className="work__text">
-          <h5>
-            These are works that helped in my professional growth.
-          </h5>
-          <h5>
-            Through these, I acquired valuable experiences, skills, and
-            knowledge in the career I am pursuing.
-          </h5>
-        </div>
-
         <div
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="50"
-          data-aos-once="true"
+          data-aos-once="false"
         >
           <div className="work__cards">
             <div className="work__accordion">

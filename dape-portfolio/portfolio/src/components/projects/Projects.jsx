@@ -4,6 +4,7 @@ import "./Projects.css";
 import ReactProjectImg from "../../assets/merndesktop.png";
 import FlutterProjectImg from "../../assets/flutterphone.png";
 import UIUXProjectImg from "../../assets/uiuxdesktop.png";
+import BeeHubImg from "../../assets/beehub.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,6 +21,35 @@ const Projects = () => {
 
       <div className="container projects__container">
         <div className="projects__card">
+          <div className="card">
+            <div
+              className="img__container"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={BeeHubImg} alt="" />
+            </div>
+            <div
+              className="card__desc"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>BeeHub Virtual Assistant Co.</h2>
+              <p>
+                Developed and Deployed a Fully Designed Fullstack Web
+                Application using React, Express, Node, and MongoDB for a
+                PH-based client.
+              </p>
+              <a href="https://beehubvas.com/" target="_blank" rel="noreferrer">
+                <button className="btn btn-primary">Visit BeeHub</button>
+              </a>
+            </div>
+          </div>
+
           <div className="card">
             <div
               className="card__desc"
@@ -46,6 +76,36 @@ const Projects = () => {
               data-aos-once="true"
             >
               <img src={ReactProjectImg} alt="" />
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={BeeHubImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>BeeHub Virtual Assistant Co.</h2>
+              <p>
+                Developed and Deployed a Fully Designed Fullstack Web
+                Application using React, Express, Node, and MongoDB for a
+                PH-based client.
+              </p>
+              <a href="https://beehubvas.com/" target="_blank" rel="noreferrer">
+                <button className="btn btn-primary">Visit BeeHub</button>
+              </a>
             </div>
           </div>
 
