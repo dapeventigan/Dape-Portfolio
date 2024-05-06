@@ -82,7 +82,11 @@ function Skills() {
 const skillsData = [
   {
     title: "Java",
-    percent: 70,
+    percent: 60,
+  },
+  {
+    title: "Python",
+    percent: 60,
   },
   {
     title: "HTML",
