@@ -8,7 +8,7 @@ import Image2 from '../../assets/carousel/grad.jpg'
 import Image3 from '../../assets/carousel/me.jpg'
 import Image4 from '../../assets/carousel/m3.jpg'
 import Image5 from '../../assets/carousel/valo.JPG'
-import Image6 from '../../assets/carousel/m4.jpg'
+import Image6 from '../../assets/carousel/m4.png'
 
 const AboutCarousel = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])

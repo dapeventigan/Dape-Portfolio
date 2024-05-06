@@ -5,6 +5,8 @@ import ReactProjectImg from "../../assets/merndesktop.png";
 import FlutterProjectImg from "../../assets/flutterphone.png";
 import UIUXProjectImg from "../../assets/uiuxdesktop.png";
 import BeeHubImg from "../../assets/beehub.png";
+import SportTXTImg from "../../assets/sportTXT.png";
+import SmiskiImg from "../../assets/smiski.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,6 +31,201 @@ const Projects = () => {
               data-aos-delay="100"
               data-aos-once="true"
             >
+              <img src={SportTXTImg} alt="" />
+            </div>
+            <div
+              className="card__desc"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>SportTXT Home Page</h2>
+              <p>
+                This website I developed was a technical exam for New Media
+                Services which is an evaluation for Web Designer Role. I've
+                designed the UI of the website, developed a 3D Hero Header using
+                Spline3D, and coded the rest of the website using ReactJS.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-sportsTXT-nms/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://www.figma.com/file/aiGqe1ylzbZecpSqeveUOe/dape-SportsTXT-NMS?type=design&node-id=0%3A1&mode=design&t=VHyJOT11Jf0cXe06-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Figma file</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-sportsTXT-nms"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={SportTXTImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>SportTXT Home Page</h2>
+              <p>
+                This website I developed was a technical exam for New Media
+                Services which is an evaluation for Web Designer Role. I've
+                designed the UI of the website, developed a 3D Hero Header using
+                Spline3D, and coded the rest of the website using ReactJS.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-sportsTXT-nms/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://www.figma.com/file/aiGqe1ylzbZecpSqeveUOe/dape-SportsTXT-NMS?type=design&node-id=0%3A1&mode=design&t=VHyJOT11Jf0cXe06-1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Figma file</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-sportsTXT-nms"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>【UNOFFICIAL SITE】SMISKI by dape</h2>
+              <p>
+                Self taught how to make 3D models in Blender, imported the model
+                to Spline3D, and implemented the final animated 3D model to
+                ReactJS. This is my first 3D modeled website and used SMISKI as
+                an inspiration for the Website Design.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-smiski-3dweb/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-smiski-3dweb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={SmiskiImg} alt="" />
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={SmiskiImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>【UNOFFICIAL SITE】SMISKI by dape</h2>
+              <p>
+                Self taught how to make 3D models in Blender, imported the model
+                to Spline3D, and implemented the final animated 3D model to
+                ReactJS. This is my first 3D modeled website and used SMISKI as
+                an inspiration for the Website Design.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-smiski-3dweb/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-smiski-3dweb"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div
+              className="img__container"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
               <img src={BeeHubImg} alt="" />
             </div>
             <div
@@ -40,13 +237,99 @@ const Projects = () => {
             >
               <h2>BeeHub Virtual Assistant Co.</h2>
               <p>
-                Developed and Deployed a Fully Designed Fullstack Web
-                Application using React, Express, Node, and MongoDB for a
-                PH-based client.
+                Developed a Fully Designed Fullstack Web Application using
+                React, Express, Node, and MongoDB. Deployed through Render and
+                due to onrender.com being a public suffix, I will not be able to
+                demo the website with a backend unless I host it with a personal
+                domain. Thank you for understanding.
               </p>
-              <a href="https://beehubvas.com/" target="_blank" rel="noreferrer">
-                <button className="btn btn-primary">Visit BeeHub</button>
-              </a>
+              <div className="project__buttons">
+                <a
+                  href="https://dape-beehub-v2.onrender.com/landing-page"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/beehub-va-v1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">
+                    Frontend Github Repo
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/beehub-va-api-v1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">
+                    Backend Github Repo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={BeeHubImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>BeeHub Virtual Assistant Co.</h2>
+              <p>
+                Developed a Fully Designed Fullstack Web Application using
+                React, Express, Node, and MongoDB. Deployed through Render and
+                due to onrender.com being a public suffix, I will not be able to
+                demo the website with a backend unless I host it with a personal
+                domain. Thank you for understanding.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dape-beehub-v2.onrender.com/landing-page"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/beehub-va-v1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">
+                    Frontend Github Repo
+                  </button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/beehub-va-api-v1"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">
+                    Backend Github Repo
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -76,36 +359,6 @@ const Projects = () => {
               data-aos-once="true"
             >
               <img src={ReactProjectImg} alt="" />
-            </div>
-          </div>
-
-          <div className="card__mobile">
-            <div
-              className="img__container"
-              data-aos="fade-left"
-              data-aos-duration="3000"
-              data-aos-delay="100"
-              data-aos-once="true"
-            >
-              <img src={BeeHubImg} alt="" />
-            </div>
-
-            <div
-              className="card__desc"
-              data-aos="fade-right"
-              data-aos-duration="3000"
-              data-aos-delay="100"
-              data-aos-once="true"
-            >
-              <h2>BeeHub Virtual Assistant Co.</h2>
-              <p>
-                Developed and Deployed a Fully Designed Fullstack Web
-                Application using React, Express, Node, and MongoDB for a
-                PH-based client.
-              </p>
-              <a href="https://beehubvas.com/" target="_blank" rel="noreferrer">
-                <button className="btn btn-primary">Visit BeeHub</button>
-              </a>
             </div>
           </div>
 

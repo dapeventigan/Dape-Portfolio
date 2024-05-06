@@ -60,19 +60,19 @@ function About() {
               <article className="about__card">
                 <MdWork className="about__icon" />
                 <h5>Job Interest</h5>
+                <small>Web Developer</small>
                 <small>Fullstack Developer</small>
                 <small>UI/UX Designer</small>
                 <small>Graphic Designer</small>
-                <small>Video Editor</small>
               </article>
             </div>
 
             <div className="desc__container">
-              <h3 className="animate-charcter"> Hello World!</h3>
+              <h3 className="animate-charcter"> Hello!</h3>
               <p>
-                My name is Dabe Ventigan, and you can call me Dape. I'm a fresh
+                My name is Dabe Ventigan, and you can call me Dape. I'm an
                 IT Graduate from Saint Louis University. I aspire to pursue a
-                career as a Fullstack Developer and UI/UX Designer. To
+                career as a Fullstack Web Developer and UI/UX Designer. To
                 complement my technical skills, I've actively sought
                 opportunities to expand my knowledge and experience. I've
                 attended tech meetups and conferences, connecting with industry
@@ -85,7 +85,7 @@ function About() {
             </div>
 
             <a href="#contact" className="btn btn-primary">
-              Let's Talk
+              Message me
             </a>
           </div>
         </div>

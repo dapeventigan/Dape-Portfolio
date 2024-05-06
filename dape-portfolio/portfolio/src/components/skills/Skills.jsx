@@ -90,7 +90,7 @@ const skillsData = [
   },
   {
     title: "CSS",
-    percent: 70,
+    percent: 80,
   },
   {
     title: "Javascript",
@@ -102,15 +102,15 @@ const skillsData = [
   },
   {
     title: "ExpressJS",
-    percent: 65,
+    percent: 75,
   },
   {
     title: "NodeJS",
-    percent: 65,
+    percent: 75,
   },
   {
     title: "MongoDB",
-    percent: 70,
+    percent: 80,
   },
   {
     title: "Flutter",
@@ -129,7 +129,7 @@ const skillsData = [
 const skillsMedData = [
   {
     title: "Adobe Photoshop",
-    percent: 75,
+    percent: 80,
   },
   {
     title: "Adobe Premier",
