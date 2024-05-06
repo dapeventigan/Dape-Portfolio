@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dape-portfolio/static/css/main.888fe337.css",
-    "main.js": "/dape-portfolio/static/js/main.49b24fc4.js",
+    "main.js": "/dape-portfolio/static/js/main.79349211.js",
     "static/media/m4.png": "/dape-portfolio/static/media/m4.dba76d158069f2cf6651.png",
     "static/media/grad.jpg": "/dape-portfolio/static/media/grad.ec5fbf831ebd001b18d0.jpg",
     "static/media/uiuxdesktop.png": "/dape-portfolio/static/media/uiuxdesktop.b02ba712569200a63091.png",
@@ -18,10 +18,10 @@
     "static/media/pochacco.png": "/dape-portfolio/static/media/pochacco.6fc16d3df6f38f565278.png",
     "index.html": "/dape-portfolio/index.html",
     "main.888fe337.css.map": "/dape-portfolio/static/css/main.888fe337.css.map",
-    "main.49b24fc4.js.map": "/dape-portfolio/static/js/main.49b24fc4.js.map"
+    "main.79349211.js.map": "/dape-portfolio/static/js/main.79349211.js.map"
   },
   "entrypoints": [
     "static/css/main.888fe337.css",
-    "static/js/main.49b24fc4.js"
+    "static/js/main.79349211.js"
   ]
 }
