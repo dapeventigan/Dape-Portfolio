@@ -1,7 +1,15 @@
 {
   "files": {
-    "main.css": "/dape-portfolio/static/css/main.888fe337.css",
-    "main.js": "/dape-portfolio/static/js/main.79349211.js",
+    "main.css": "/dape-portfolio/static/css/main.5394a12b.css",
+    "main.js": "/dape-portfolio/static/js/main.0e941958.js",
+    "static/js/872.9102b29a.chunk.js": "/dape-portfolio/static/js/872.9102b29a.chunk.js",
+    "static/js/227.3dd6b200.chunk.js": "/dape-portfolio/static/js/227.3dd6b200.chunk.js",
+    "static/js/526.41c389e0.chunk.js": "/dape-portfolio/static/js/526.41c389e0.chunk.js",
+    "static/js/232.1dfd2577.chunk.js": "/dape-portfolio/static/js/232.1dfd2577.chunk.js",
+    "static/js/854.04922a57.chunk.js": "/dape-portfolio/static/js/854.04922a57.chunk.js",
+    "static/js/237.4ad92e49.chunk.js": "/dape-portfolio/static/js/237.4ad92e49.chunk.js",
+    "static/js/357.c245e135.chunk.js": "/dape-portfolio/static/js/357.c245e135.chunk.js",
+    "static/js/753.c504283b.chunk.js": "/dape-portfolio/static/js/753.c504283b.chunk.js",
     "static/media/m4.png": "/dape-portfolio/static/media/m4.dba76d158069f2cf6651.png",
     "static/media/grad.jpg": "/dape-portfolio/static/media/grad.ec5fbf831ebd001b18d0.jpg",
     "static/media/uiuxdesktop.png": "/dape-portfolio/static/media/uiuxdesktop.b02ba712569200a63091.png",
@@ -17,11 +25,19 @@
     "static/media/dape_resume.pdf": "/dape-portfolio/static/media/dape_resume.d48ff752d121b83dc231.pdf",
     "static/media/pochacco.png": "/dape-portfolio/static/media/pochacco.6fc16d3df6f38f565278.png",
     "index.html": "/dape-portfolio/index.html",
-    "main.888fe337.css.map": "/dape-portfolio/static/css/main.888fe337.css.map",
-    "main.79349211.js.map": "/dape-portfolio/static/js/main.79349211.js.map"
+    "main.5394a12b.css.map": "/dape-portfolio/static/css/main.5394a12b.css.map",
+    "main.0e941958.js.map": "/dape-portfolio/static/js/main.0e941958.js.map",
+    "872.9102b29a.chunk.js.map": "/dape-portfolio/static/js/872.9102b29a.chunk.js.map",
+    "227.3dd6b200.chunk.js.map": "/dape-portfolio/static/js/227.3dd6b200.chunk.js.map",
+    "526.41c389e0.chunk.js.map": "/dape-portfolio/static/js/526.41c389e0.chunk.js.map",
+    "232.1dfd2577.chunk.js.map": "/dape-portfolio/static/js/232.1dfd2577.chunk.js.map",
+    "854.04922a57.chunk.js.map": "/dape-portfolio/static/js/854.04922a57.chunk.js.map",
+    "237.4ad92e49.chunk.js.map": "/dape-portfolio/static/js/237.4ad92e49.chunk.js.map",
+    "357.c245e135.chunk.js.map": "/dape-portfolio/static/js/357.c245e135.chunk.js.map",
+    "753.c504283b.chunk.js.map": "/dape-portfolio/static/js/753.c504283b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.888fe337.css",
-    "static/js/main.79349211.js"
+    "static/css/main.5394a12b.css",
+    "static/js/main.0e941958.js"
   ]
 }
