@@ -34,6 +34,14 @@
 
 /* RESPONSIVE MEDIA QUERIES (TABLET SIZE) */
 
+@media screen and (max-width: 1521px) {
+  .project__buttons {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .card__desc > h2 {
     font-size: larger;
@@ -64,12 +72,6 @@
     display: block;
     display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .project__buttons {
-    flex-direction: column;
-    align-items: baseline;
-    gap: 1rem;
   }
 }
 
