@@ -36,7 +36,7 @@ function NavBar() {
       <a href="#experience" onClick={()=> setActiveNav("#exp")} id={activeNav === '#exp' ? 'active' : ''}>
         <BiBook />
       </a>
-      <a href="#experiences" onClick={()=> setActiveNav("#services")} id={activeNav === '#services' ? 'active' : ''}>
+      <a href="#projects" onClick={()=> setActiveNav("#spline")} id={activeNav === '#spline' ? 'active' : ''}>
         <RiServiceLine />
       </a>
       <a href="#contact" onClick={()=> setActiveNav("#contact")} id={activeNav === '#contact' ? 'active' : ''}>

@@ -17,7 +17,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="Projects">
+    <section id="projects">
       <h5>Things I have worked on</h5>
       <h2>Projects</h2>
 
