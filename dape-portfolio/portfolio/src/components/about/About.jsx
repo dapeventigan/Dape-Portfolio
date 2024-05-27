@@ -73,8 +73,8 @@ function About() {
                 My name is Dabe Ventigan, and you can call me Dape. I'm an IT
                 Graduate from Saint Louis University. I aspire to pursue a
                 career as a Fullstack Web or Software Developer, UI/UX Designer,
-                Graphic Designer, or any IT related roles that my skills can
-                contribute. To complement my technical skills, I've actively
+                Graphic Designer, or any IT related roles that I can contribute
+                my skills. To complement my technical skills, I've actively
                 sought opportunities to expand my knowledge and experience. I've
                 attended tech meetups and conferences, connecting with industry
                 professionals and absorbing insights into the latest
