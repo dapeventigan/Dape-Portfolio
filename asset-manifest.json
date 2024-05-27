@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dape-portfolio/static/css/main.5394a12b.css",
-    "main.js": "/dape-portfolio/static/js/main.3f61dc43.js",
+    "main.js": "/dape-portfolio/static/js/main.7d38a6c4.js",
     "static/js/872.9102b29a.chunk.js": "/dape-portfolio/static/js/872.9102b29a.chunk.js",
     "static/js/227.3dd6b200.chunk.js": "/dape-portfolio/static/js/227.3dd6b200.chunk.js",
     "static/js/526.41c389e0.chunk.js": "/dape-portfolio/static/js/526.41c389e0.chunk.js",
@@ -27,7 +27,7 @@
     "static/media/pochacco.png": "/dape-portfolio/static/media/pochacco.6fc16d3df6f38f565278.png",
     "index.html": "/dape-portfolio/index.html",
     "main.5394a12b.css.map": "/dape-portfolio/static/css/main.5394a12b.css.map",
-    "main.3f61dc43.js.map": "/dape-portfolio/static/js/main.3f61dc43.js.map",
+    "main.7d38a6c4.js.map": "/dape-portfolio/static/js/main.7d38a6c4.js.map",
     "872.9102b29a.chunk.js.map": "/dape-portfolio/static/js/872.9102b29a.chunk.js.map",
     "227.3dd6b200.chunk.js.map": "/dape-portfolio/static/js/227.3dd6b200.chunk.js.map",
     "526.41c389e0.chunk.js.map": "/dape-portfolio/static/js/526.41c389e0.chunk.js.map",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.5394a12b.css",
-    "static/js/main.3f61dc43.js"
+    "static/js/main.7d38a6c4.js"
   ]
 }
