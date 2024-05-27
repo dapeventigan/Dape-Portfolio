@@ -61,7 +61,7 @@ function About() {
                 <MdWork className="about__icon" />
                 <h5>Job Interest</h5>
                 <small>Web Developer</small>
-                <small>Fullstack Developer</small>
+                <small>Software Developer</small>
                 <small>UI/UX Designer</small>
                 <small>Graphic Designer</small>
               </article>
@@ -70,11 +70,12 @@ function About() {
             <div className="desc__container">
               <h3 className="animate-charcter"> Hello!</h3>
               <p>
-                My name is Dabe Ventigan, and you can call me Dape. I'm an
-                IT Graduate from Saint Louis University. I aspire to pursue a
-                career as a Fullstack Web Developer and UI/UX Designer. To
-                complement my technical skills, I've actively sought
-                opportunities to expand my knowledge and experience. I've
+                My name is Dabe Ventigan, and you can call me Dape. I'm an IT
+                Graduate from Saint Louis University. I aspire to pursue a
+                career as a Fullstack Web or Software Developer, UI/UX Designer,
+                Graphic Designer, or any IT related roles that my skills can
+                contribute. To complement my technical skills, I've actively
+                sought opportunities to expand my knowledge and experience. I've
                 attended tech meetups and conferences, connecting with industry
                 professionals and absorbing insights into the latest
                 technological advancements. Moreover, I've taken on freelance

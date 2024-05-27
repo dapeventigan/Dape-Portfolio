@@ -7,6 +7,7 @@ import UIUXProjectImg from "../../assets/uiuxdesktop.png";
 import BeeHubImg from "../../assets/beehub.png";
 import SportTXTImg from "../../assets/sportTXT.png";
 import SmiskiImg from "../../assets/smiski.png";
+import KellywoodImg from "../../assets/kellywood.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,6 +26,96 @@ const Projects = () => {
         <div className="projects__card">
           <div className="card">
             <div
+              className="card__desc"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>Kellywood Builder Landing Page</h2>
+              <p>
+                This website I developed was a technical exam for
+                TechnoDream Web Designs. The website's UI and UX was designed by
+                Dallas Marketing Company Red Spot Design and developed by me
+                using ReactJS.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-technodream/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-technodream"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+
+            <div
+              className="img__container"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={KellywoodImg} alt="" />
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={KellywoodImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>Kellywood Builder Landing Page</h2>
+              <p>
+                This website I developed was a technical exam for
+                TechnoDream Web Designs. The website's UI and UX was designed by
+                Dallas Marketing Company Red Spot Design and developed by me
+                using ReactJS.
+              </p>
+              <div className="project__buttons">
+                <a
+                  href="https://dapeventigan.github.io/dape-technodream/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Live Demo</button>
+                </a>
+
+                <a
+                  href="https://github.com/dapeventigan/dape-technodream"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn-primary">Github Repo</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div
               className="img__container"
               data-aos="fade-right"
               data-aos-duration="3000"
@@ -78,7 +169,7 @@ const Projects = () => {
           <div className="card__mobile">
             <div
               className="img__container"
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -88,7 +179,7 @@ const Projects = () => {
 
             <div
               className="card__desc"
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -176,7 +267,7 @@ const Projects = () => {
           <div className="card__mobile">
             <div
               className="img__container"
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -186,7 +277,7 @@ const Projects = () => {
 
             <div
               className="card__desc"
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -278,7 +369,7 @@ const Projects = () => {
           <div className="card__mobile">
             <div
               className="img__container"
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -288,7 +379,7 @@ const Projects = () => {
 
             <div
               className="card__desc"
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -365,7 +456,7 @@ const Projects = () => {
           <div className="card__mobile">
             <div
               className="img__container"
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -375,7 +466,7 @@ const Projects = () => {
 
             <div
               className="card__desc"
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -391,7 +482,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="card__2">
+          <div className="card">
             <div
               className="img__container"
               data-aos="fade-right"
@@ -401,10 +492,37 @@ const Projects = () => {
             >
               <img src={FlutterProjectImg} alt="" />
             </div>
-
             <div
               className="card__desc"
               data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <h2>FFUFM Flutter Bootcamp Mobile Apps</h2>
+              <p>
+                In FFUFM Flutter Bootcamp, we developed 4-8 Mobile Applications
+                with different unique features to practice coding with Flutter
+                and Dart. It consist of state management, right use of
+                components, API handling, and flutter animations.
+              </p>
+            </div>
+          </div>
+
+          <div className="card__mobile">
+            <div
+              className="img__container"
+              data-aos="fade"
+              data-aos-duration="3000"
+              data-aos-delay="100"
+              data-aos-once="true"
+            >
+              <img src={FlutterProjectImg} alt="" />
+            </div>
+
+            <div
+              className="card__desc"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -452,7 +570,7 @@ const Projects = () => {
           <div className="card__mobile">
             <div
               className="img__container"
-              data-aos="fade-left"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
@@ -461,7 +579,7 @@ const Projects = () => {
             </div>
             <div
               className="card__desc"
-              data-aos="fade-right"
+              data-aos="fade"
               data-aos-duration="3000"
               data-aos-delay="100"
               data-aos-once="true"
